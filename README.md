@@ -69,14 +69,16 @@ Final Output:
 - Shows the Y-axis (in linear scale): best fitness scores
 
 ## Implementation Details
-
-**Genetic Algorithm Components**
+---
+### **Genetic Algorithm Components**
 
 1. Fitness Function
 
 - Measures the similarity to the target string
 - Defined as:
+
 The number of characters that match the target string at the corresponding positions
+
 - Maximum fitness: 15
   
 2. Selection
@@ -89,21 +91,28 @@ The number of characters that match the target string at the corresponding posit
 
 - Combines the two parents to form offspring
 - Probability of crossover:
+
 Applied to the parents
+
 - The most common method of crossover is:
+
 Single-point crossover
+
 - Parents are divided at random points, and the substrings are swapped to form offspring
 
 4. Mutation
 
 - Random changes are introduced to the offspring
 - Mutation rate:
+
 ~0.05 per character
+
 - For each character, the mutation operation is as follows:
 
 Probability p, random ASCII character
-   
-**Algorithm Flow**
+
+---
+### **Algorithm Flow**
 
 1. Randomly generate the initial population
 2. Evaluate the fitness of the individuals
@@ -115,10 +124,14 @@ Probability p, random ASCII character
    Create the next generation
    Keep track of the best individual
    Print the results and plot the fitness
-   
-**Stopping Criteria**
+
+---
+### **Stopping Criteria**
 
 1. A perfect match has been achieved
+
    "Hello CPSC 390!"
+   
 2. Maximum number of generations has been reached
+
    5000 iterations
