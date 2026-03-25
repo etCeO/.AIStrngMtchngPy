@@ -118,12 +118,12 @@ Probability p, random ASCII character
 2. Evaluate the fitness of the individuals
 3. Until termination criteria are met
 
-   Select parents
-   Apply crossover
-   Apply mutation
-   Create the next generation
-   Keep track of the best individual
-   Print the results and plot the fitness
+   - Select parents
+   - Apply crossover
+   - Apply mutation
+   - Create the next generation
+   - Keep track of the best individual
+   - Print the results and plot the fitness
 
 ---
 ### **Stopping Criteria**
