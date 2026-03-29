@@ -135,3 +135,9 @@ Probability p, random ASCII character
 2. Maximum number of generations has been reached
 
    5000 iterations
+
+## Report
+
+- View detailed results and findings here:
+
+https://docs.google.com/document/d/1iztpYD110OP72fV2dNsst2s9anO7hgUSSXXqdmrxLdY/edit?usp=sharing
